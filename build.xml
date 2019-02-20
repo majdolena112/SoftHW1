@@ -37,10 +37,10 @@
     </target>
  <!---------------------------------------------------------------------------------------------------------------------->
         <path id="NecessaryLibraries">
-        <pathelement location="./UsedLibraries/junit-4.12.jar"/>
+        <pathelement location="./src/junit-4.12.jar"/>
         <!--matcher-->
-        <pathelement location="./UsedLibraries/hamcrest-core-1.3.jar"/>
-        <!--<pathelement location="./UsedLibraries/jacocoant.jar"/>-->
+        <pathelement location="./src/hamcrest-core-1.3.jar"/>
+        <pathelement location="./src/jacocoant.jar"/>
     </path>
 <!------------------------------------------------------------------------------------------------------------------------>
     <target name="test" depends="compile-testcases">
